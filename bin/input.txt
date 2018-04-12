@@ -1,0 +1,15 @@
+ATM A1
+ATM_A2
+B 103
+A 102
+A100
+password A
+passwordB
+passwordA
+10.10
+-19
+19.90
+51
+10
+1
+quit

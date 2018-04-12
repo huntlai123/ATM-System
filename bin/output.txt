@@ -1,0 +1,41 @@
+States of two Banks
+Assume all accounts have $40.0 preloaded.
+
+Bank of A (3 customers)
+Customer - Card Card with bankid: A and account number #: 100, expires on 11/12/2018, password: passwordA, balance: 40.0
+Customer - Card Card with bankid: A and account number #: 101, expires on 11/13/2018, password: passwordB, balance: 40.0
+Customer - Card Card with bankid: A and account number #: 102, expires on 11/14/2015, password: passwordC, balance: 40.0
+
+Bank of B (2 customers)
+Customer - Card Card with bankid: B and account number #: 103, expires on 11/15/2017, password: passwordD, balance: 40.0
+Customer - Card Card with bankid: B and account number #: 104, expires on 1/16/2018, password: passwordE, balance: 40.0
+
+Sates of all ATMs (2 for each bank)
+ATM_A1 (from Bank of A)
+	The maximum amount of cash a card can withdraw per transaction: $32.0
+ATM_A2 (from Bank of A)
+	The maximum amount of cash a card can withdraw per transaction: $50.0
+
+ATM_B1 (from Bank of B)
+	The maximum amount of cash a card can withdraw per transaction: $60.0
+ATM_B2 (from Bank of B)
+	The maximum amount of cash a card can withdraw per transaction: $1000.0
+
+-----------------------------------------------------------------------------
+Enter your choice of ATM.
+Sorry not a valid ATM, please enter another.
+Enter your card
+This card is not supported by this ATM.
+Enter your card
+This card is expired and returned to you.
+Enter your card
+This card is accepted. Please enter your password.
+This is a wrong password. Please enter your password.
+This is a wrong password. Please enter your password.
+Authorization is accepted. Start your transaction by entering the amount to withdraw.
+$10.1 is withdrawn from  your account. The remaining balance of this account is $29.9.  If you have more transactions, enter the amount or quit.
+This amount is not in range of the amount you can withdraw per day. Please enter amount or quit.
+$19.9 is withdrawn from  your account. The remaining balance of this account is $10.0.  If you have more transactions, enter the amount or quit.
+This amount is not in range of the amount you can withdraw per day. Please enter amount or quit.
+$10.0 is withdrawn from  your account. The remaining balance of this account is $0.0.  If you have more transactions, enter the amount or quit.
+The amount exceeds the current balance. Please enter another amount or quit.
